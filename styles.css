@@ -1,0 +1,55 @@
+/*
+Colors
+DarkGray #545454
+Inchworm #B9FA8A rgb (185, 250, 138)
+CyberGrape #634488
+Macaroni and Cheese #FBB688
+VioletWeb #F679E5
+UnbleachedSilk #ECCFC3
+*/
+
+/* ____________________Global Styles____________________*/
+body {font-family: "Cormorant Garamond", garamond, serif;
+  margin: 0;
+  padding: 0;}
+h2 {font-size: 32px;}
+img {width: 300px;}
+.text-box {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 10px;}
+article {background-image: url("background.jpg");
+  background-color: #ECCFC3;
+  background-size: cover;}
+a:link {color: #634488}
+a:visited {color: #545454}
+.flex-container {display: flex;
+  flex-wrap: wrap;}
+.flex-item-l {flex: 0 1;
+  min-width: 300px;
+  margin: 10px;}
+.flex-item-r {flex: 1 1;
+  min-width: 300px;
+  margin: 10px;}
+.divider-below {border-bottom: 1px dashed #545454}
+
+/* ____________________About/Profile____________________*/
+header {background-color: rgba(185, 250, 138, 80%)}
+h1 {text-align: center;
+  font-size: 48px;}
+
+/* ____________________Projects/Portfolio____________________*/
+.project-heading {text-align: center;
+  font-size: 24px;}
+/* ____________________Work Experience____________________*/
+
+
+/* ____________________Education & Certifications____________________*/
+
+
+/* ____________________Contact____________________*/
+footer {background-color: #FBB688;}
+.footer-container {display: flex;
+  justify-content: center;
+  align-items: center;}
